@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  width: auto;
+  font-family: "Hiragino Kaku Gothic ProN";
+  margin: 0;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+header {
+  background-color: #000;
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left p {
+  color: #fff;
+  line-height: 65px;
+  font-size: 50px
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  line-height: 65px;
+  font-size: 30px;
+  display: none;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  color: #fff;
+  line-height: 65px;
+  padding: 0 30px;
+  display: inline-block;
+}
+
+.news:hover, .blog:hover, .history:hover, .contact:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.top-wrapper {
+  width: 100%;
+  height: 680px;
+  padding: 180px 0 100px 0;
+  background-image: url(img/bgimg.png);
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+.top-wrapper h1 {
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: 20px;
+  color: #fff;
+  opacity: 0.8;
+  text-shadow:0 5px 5px black;
+}
+
+.top-wrapper p {
+  text-align: center;
+  padding: 40px 0 50px 0;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: #fff;
+  display: inline-block;
+  border-radius: 4px;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.btn-wrapper p {
+  padding: 10px 0;
+}
+
+.check {
+  background-color: limegreen;
+}
+
+.facebook {
+  background-color: blue;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: skyblue;
+  padding: 8px 30px;
+}
+
+.fab {
+  padding-right: 5px;
+}
+
+.lesson-wrapper {
+  background-color: darkgray;
+  color: #fff;
+  padding: 120px 0 100px 0;
+}
+
+.lesson-top {
+  text-align: center;
+  padding-bottom: 50px;
+  text-shadow: #000 25px;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon, .text-contents {
+  text-align: center;
+}
+
+.message-wrapper {
+  text-align: center;
+  height: 550px;
+}
+
+.message-top {
+  padding: 150px 0 30px;
+}
+
+.message-top p {
+  padding: 20px 0;
+  color: darkgray;
+}
+
+.ok {
+  background-color: limegreen;
+  padding: 10px 80px;
+  cursor: pointer;
+  box-shadow: 0 8px green;
+}
+
+.ok:active {
+  box-shadow: none;
+  position: relative;
+  top: 10px;
+}
+
+footer {
+  background-color: #000000;
+  height: 80px;
+}
+
+.footer-logo {
+  float: right;
+  color: #fff;
+  line-height: 80px;
+}
+
+.clear {
+  clear: left;
+}
+
+.wrap {
+  overflow: hidden;
+}
